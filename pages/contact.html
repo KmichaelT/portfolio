@@ -9,35 +9,20 @@
     <link rel="stylesheet" type="text/css" href="../css/custom.css">
     <!-- inject:css-->
     <!-- endinject -->
-    <link rel="icon" type="image/png" href="../favicon.png?version=1">
+    <link rel="icon" type="image/png" href="../favicon.png">
     <script src="../js/assets/jquery.js"></script>
   </head>
   <body class="smooth-transition">
     <div class="container-fluid">
-      <header>
-        <div class="container">
-          
-          <div class="col-md-3 "><a href="index.html" class="brand"><img alt="Your Alternative text" src="../images/logo.svg" class="kbrand"></a></div>
-          <div class="col-md-9 ">
-            <div class="text-right">
-            <div class="nav-trigger">
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
-            </div>
-            <ul class="navigation  ">
-              <li ><a href="../index.html" >Home</a></li>
-              <li> <a href="../pages/about.html">About</a></li>
-              <li> <a href="../pages/contact.html" class="active">Contact</a></li>
-              <!-- <li> <a href="../pages/hire_me.html">Hire Me</a></li> -->
-            </ul>  
-            </div>
-            
-          </div>
-         
-        
+      <div id="nav-placeholder">
+
       </div>
-      </header>
+      
+      <script>
+      $(function(){
+        $("#nav-placeholder").load("../pages/nav.html");
+      });
+      </script>
       <section class="hero">
         <div class="container">
           <div class="row">
@@ -73,45 +58,25 @@
               </form>
             </div>
             <div class="col-md-5 col-md-offset-1 content">
-              <div class="mt-lg"><img src="../images/contact/01.jpg" class="mt-sm mb-md">
-                <p>We always love to get in touch with new people. Whether you are a potential customer, partner or someone else, we love to hear from you!</p>
+              <div class="mt-lg"><img src="../images/contact/01.png" class="mt-sm mb-md">
+                <p>I always love to get in touch with new people. Whether you are a potential customer, partner or someone else, I'd love to hear from you!</p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- The type animation script-->
-      <script>$(function(){$(".typed").typed({strings: ["Hello", "Hola", "こんにちは", "Ciao", "Aloha", "Hallo"],typeSpeed: 130,loop: true  });});</script>
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3 text-center">
-              <p>Michael Bekele<br>Designer & Web-developer</p>
-            </div>
-            <div class="col-md-3 text-center">
-              <p>Dallas Texas<br>Forest ln, 75243</p>
-            </div>
-            <div class="col-md-3 text-center">
-              <p>kmichaeltb@gmail.com<br>972-371-8483</p>
-            </div>
-            <div class="col-md-3 text-center">
-              <ul class="social-links">
-                <li> <a href="#" class="fa fa-vimeo"></a></li>
-                <li> <a href="#" class="fa fa-instagram"></a></li>
-                <li> <a href="#" class="fa fa-twitter"></a></li>
-                <li> <a href="#" class="fa fa-behance"></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <footer class="bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">&copy;  All rights reserved.</div>
-          </div>
-        </div>
-      </footer>
+      <script>$(function(){$(".typed").typed({strings: ["Hello", "Hola", "ሰላም", "Ciao", "Aloha", "Hallo"],typeSpeed: 130,loop: true  });});</script>
+
+
+       <!-- footer -->
+       <div id="footer-placeholder"></div>
+       <script>
+       $(function(){
+         $("#footer-placeholder").load("../pages/footer.html");
+       });
+       </script>
+        <!-- footer -->
+
     </div>
     <script src="../js/assets/bootstrap.js"></script>
     <script src="../js/assets/imagesloaded.pkgd.min.js"></script>
