@@ -20,3 +20,21 @@
 .kbrand{
     height: 30px;
 }
+.multiply{
+    background-blend-mode:  difference;
+}
+.endpadding{
+    padding: 0px 10% 0px 0px;
+}
+.startpadding{
+    padding: 0px 0px 0px 10%;
+}
+.topnbottompadding
+{padding: 10% 0;}
+
+.bottompadding
+{padding: 0px 0 10% 0;}
+
+.floor{
+    vertical-align: text-bottom;
+}

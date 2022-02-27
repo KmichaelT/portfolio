@@ -325,6 +325,7 @@ ul.navigation li:hover ul.dropdown {
   padding: 100px 0 100px;
   position: relative;
   z-index: 2;
+  
 }
 
 @media screen and (max-width: 768px) {
